@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>南开大学公共场所准入管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- 引入 layui.css -->
+    <!-- <link rel="stylesheet" href="layui/css/layui.css"> -->
+    <!-- 引入 layui.js -->
+    <script src="layui/layui.js"></script>
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container success">
+        <!-- 允许进入 -->
+        <div class="card-con">
+            <header>
+                <!-- 关注人员 -->
+                <div>
+                    <h1 id="username">111</h1>
+                    <div id="userid">222</div>
+                    <div id="deptname">333</div>
+                </div>
+            </header>
+            <article>
+                <div class="img-con allow">
+                    <img id='pic' src="./image/round_check_fill.png" alt="">
+                </div>
+                <div>
+                    <h1>允许进入</h1>
+                    <h3 id="placename">津南理科食堂一楼</h3>
+                </div>
+            </article>
+            <footer>
+                <div>
+                    <span>有效期：</span>
+                    <span>永不过期</span>
+                </div>
+                <div>
+                    <span>时　间：</span>
+                    <span id="formatTime"></span>
+                </div>
+            </footer>
+        </div>
+
+        <!-- modal -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

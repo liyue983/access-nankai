@@ -1,0 +1,103 @@
+ /* reset */
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+     padding: 0;
+     margin: 0;
+ }
+
+ ::-webkit-input-placeholder {
+     color: rgba(0, 0, 0, 0.3);
+ }
+
+ input {
+     caret-color: #07c160;
+ }
+
+ .container {
+     height: 100%;
+     width: 100%;
+ }
+
+ .card-con {
+     display: flex;
+     height: 100%;
+     flex-wrap: wrap;
+     /* align-content: space-around; */
+ }
+
+ header,
+ article,
+ footer {
+     width: 100%;
+ }
+
+ header {
+     align-self: center;
+ }
+
+ header,
+ article {
+     text-align: center;
+     color: #000;
+ }
+
+ header>div div:last-child {
+     color: #333;
+ }
+
+ article img {
+     width: 140px;
+ }
+
+ article>div:last-child h3 {
+     color: #666;
+ }
+
+ .allow img {
+     animation: twinkle 1s infinite ease-in;
+ }
+
+ @keyframes twinkle {
+     from {
+         opacity: 1;
+     }
+
+     to {
+         opacity: 0;
+     }
+ }
+
+ footer {
+     color: #333;
+     font-size: 18px;
+     padding-left: 45px;
+ }
+
+ footer>div span:last-child {
+     color: #666;
+ }
+
+ /* modal dialog */
+ .fixed-full {
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+ }
+
+ .modal {
+     background-color: rgba(0, 0, 0, 0.6);
+     z-index: 10;
+ }
+
+
+ .success {
+     background-color: #d2ffe6;
+ }
+
+ .info {
+     background-color: #ffcce0;
+ }
